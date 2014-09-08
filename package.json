@@ -3,6 +3,7 @@
     "version": "0.0.1",
     "description": "A vow-shell for the xamel XML serialized/deserializer",
     "dependencies": {
+        "vow": "0.4.5",
         "xamel": "0.3.1"
     }
 }
