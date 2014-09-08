@@ -2,8 +2,15 @@
     "name": "vow-xamel",
     "version": "0.0.1",
     "description": "A vow-shell for the xamel XML serialized/deserializer",
+    "scripts": {
+        "lint": "jshint ./index.js; jscs ./index.js; exit 0"
+    },
     "dependencies": {
         "vow": "0.4.5",
         "xamel": "0.3.1"
+    },
+    "devDependencies": {
+        "jscs": "~1.6.1",
+        "jshint": "~2.5.5"
     }
 }

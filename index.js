@@ -24,4 +24,4 @@ function promisifiedParse(xmlString, options) {
 module.exports = {
     parse: promisifiedParse,
     serialize: xamel.serialize
-}
+};
