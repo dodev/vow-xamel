@@ -1,4 +1,5 @@
-# vow-xamel
+vow-xamel [![NPM version](https://badge.fury.io/js/vow-xamel.svg)](http://badge.fury.io/js/vow-xamel)
+=========
 A [vow](https://github.com/dfilatov/vow)-shell for the [xamel](https://github.com/nodules/xamel) XML serialized/deserializer
 
 ## How to use
