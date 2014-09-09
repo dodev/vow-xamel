@@ -1,5 +1,5 @@
 var assert = require('assert');
-var xamel = require('../index.js');
+var xamel = require('./index');
 var originalXamel = require('xamel');
 
 describe('things falling appart', function () {

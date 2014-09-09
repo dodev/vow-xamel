@@ -20,7 +20,7 @@
     ],
     "scripts": {
         "lint": "jshint ./index.js; jscs ./index.js; exit 0",
-        "test": "./node_modules/.bin/mocha test/; exit 0"
+        "test": "./node_modules/.bin/mocha ./test.js; exit 0"
     },
     "dependencies": {
         "vow": "0.4.5",
