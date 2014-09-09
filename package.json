@@ -1,6 +1,6 @@
 {
     "name": "vow-xamel",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "A vow-shell for the xamel XML serialized/deserializer",
     "repository": {
         "type": "git",
