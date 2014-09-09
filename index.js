@@ -2,7 +2,9 @@ var vow = require('vow');
 var xamel = require('xamel');
 
 /**
+ * A shell for the xamel.parse() method.
  *
+ * @see {https://github.com/nodules/xamel#xamelparsexml-options-callback}
  * @param {String} xmlString
  * @param {Object} options
  * @returns {vow.Promise}

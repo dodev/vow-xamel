@@ -1,7 +1,7 @@
 var xamel = require('./index');
 
 /* global describe, it */
-describe('things falling appart', function () {
+describe('Using vow.Promise instead of callback for the xamel.parse method', function () {
     it('should fulfill a promise if there was a ~correct xml string passed', function (done) {
         xamel.parse('<root></root>').then(
             function () {
