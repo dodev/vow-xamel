@@ -2,6 +2,22 @@
     "name": "vow-xamel",
     "version": "0.0.1",
     "description": "A vow-shell for the xamel XML serialized/deserializer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dodev/vow-xamel.git"
+    },
+    "author": {
+        "name": "Petar Dodev",
+        "email": "petar.dodev@gmail.com",
+        "url": "https://github.com/dodev"
+    },
+    "keywords": [
+        "xml",
+        "parser",
+        "sax",
+        "promise",
+        "a+"
+    ],
     "scripts": {
         "lint": "jshint ./index.js; jscs ./index.js; exit 0",
         "test": "./node_modules/.bin/mocha test/; exit 0"
