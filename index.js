@@ -8,6 +8,8 @@ var xamel = require('xamel');
  * @returns {vow.Promise}
  */
 function promisifiedParse(xmlString, options) {
+    options = options || {};
+
     var deferred = new vow.Deferred();
 
     xamel.parse(xmlString, options, function (err, nodeSet) {
