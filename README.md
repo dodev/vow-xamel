@@ -32,3 +32,6 @@ Test can be ran by using the `test` npm script:
 ```
 npm run-script test
 ```
+
+## License
+[The MIT License](http://opensource.org/licenses/MIT)
