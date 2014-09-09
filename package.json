@@ -19,8 +19,8 @@
         "a+"
     ],
     "scripts": {
-        "lint": "jshint ./index.js; jscs ./index.js; exit 0",
-        "test": "mocha ./test.js; exit 0"
+        "lint": "jshint index.js test.js; jscs index.js test.js; exit 0",
+        "test": "mocha test.js; exit 0"
     },
     "dependencies": {
         "xamel": "^0.3"

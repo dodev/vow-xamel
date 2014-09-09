@@ -1,7 +1,6 @@
-var assert = require('assert');
 var xamel = require('./index');
-var originalXamel = require('xamel');
 
+/* global describe, it */
 describe('things falling appart', function () {
     it('should fulfill a promise if there was a ~correct xml string passed', function (done) {
         xamel.parse('<root></root>').then(
