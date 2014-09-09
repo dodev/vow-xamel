@@ -22,9 +22,11 @@
         "lint": "jshint ./index.js; jscs ./index.js; exit 0",
         "test": "./node_modules/.bin/mocha ./test.js; exit 0"
     },
-    "peerDependencies": {
-        "vow": "0.4.x",
+    "dependencies": {
         "xamel": "^0.3"
+    },
+    "peerDependencies": {
+        "vow": "0.4.x"
     },
     "devDependencies": {
         "jscs": "^1.6",
