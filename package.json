@@ -23,10 +23,8 @@
         "test": "mocha test.js; exit 0"
     },
     "dependencies": {
-        "xamel": "^0.3"
-    },
-    "peerDependencies": {
-        "vow": "0.4.x"
+        "xamel": "^0.3",
+        "vow": "^0.4"
     },
     "devDependencies": {
         "jscs": "^1.6",
